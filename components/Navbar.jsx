@@ -25,7 +25,7 @@ const Navbar = () => {
         />
 
         <img
-          src="/menu.svg"
+          src="./menu.svg"
           onClick={toggleDrawer}
           alt="menu"
           className="w-[28px] h-[28px] object-contain lg:hidden justify-center items-center cursor-pointer self-center"
