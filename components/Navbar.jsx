@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="absolute w-[50%] inset-0 gradient-01 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
         <img
-          className="h-[200px] m-[10px] leading-[30px] object-contain"
+          className="h-[150px] md:h-[200px] -m-[30px] md:m-[10px] leading-[30px] object-contain"
           src="./logo.png"
           alt="Logo"
         />
