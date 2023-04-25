@@ -22,7 +22,7 @@ const Explore = () => {
     >
       <TypingText title='| Our Services' textStyles='text-center' />
       <TitleText title={<>Unlock Your Potential with Our <br className='md:block hidden'/>Professional Services</>}textStyles='text-center' />
-      <div className={`mt-[50px] flex min-h-[70vh] gap-5 w-[100%] ${styles.innerWidth} mx-auto flex-wrap`}>
+      <div className={`mt-[50px] flex min-h-[70vh] gap-5 w-[100%] ${styles.innerWidth} justify-center items-center mx-auto flex-wrap`}>
         <div className='min-h-[200px] p-[35px] mx-[50px] min-w-[300px] max-w-[400px]  bg-white flex justify-center items-center flex-col relative rounded-xl'>
           <img src="/vector1.png" className='h-[400px]' alt="" />
           <h3 className="font-semibold self-center w-[100%] m-[auto] sm:text-[26px] text-[18px] text-black z-0 self-end mb-8">Graphic Designing</h3>
