@@ -16,7 +16,7 @@ const World = () => (
   className={`{$styles.innerwidth} mx-auto flex flex-col`}
   >
     <TypingText title='| What we are?' textStyles='text-center' />
-    <TitleText title={<>We are <span className='text-[#00FFFF]'>TheUrbanCutStudio</span></>} textStyles='text-center' />
+    <TitleText title={<>We are <span className='text-[#00FFFF] text-[30px]'>TheUrbanCutStudio</span></>} textStyles='text-center' />
     <motion.div
     variants={fadeIn('up', 'tween', 0.3, 1)}
     className='relative mt-[68px] flex w-full h-[550px]'>
