@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="absolute w-[50%] inset-0 gradient-01 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
         <img
-          className="h-[200px] m-[-60px] leading-[30px] object-contain"
+          className="h-[200px] m-[60px] leading-[30px] object-contain"
           src="./logo.png"
           alt="Logo"
         />
@@ -31,7 +31,7 @@ const Navbar = () => {
           className="w-[28px] h-[28px] object-contain lg:hidden justify-center items-center cursor-pointer self-center"
         />
 
-        <ul className="flex text-white gap-7 justify-center items-center sm:hidden md:hidden lg:flex">
+        <ul className="flex text-white gap-7 justify-center items-center sm:hidden hidden md:hidden lg:flex">
           <li className="hover:text-[#00FFFF] text-white"><a href="#home">Home</a></li>
           <li className="hover:text-[#00FFFF] text-white"><a href="#services">Services</a></li>
           <li className="hover:text-[#00FFFF] text-white"><a href="#about">About</a></li>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center mb-4">
               <h2 className="font-bold text-2xl">TheUrbanCutStudio</h2>
               <div onClick={toggleDrawer}>
-                <img src="/close.svg" alt="Close" className="w-6 h-6" />
+                <img src="./close.svg" alt="Close" className="w-6 h-6" />
               </div>
             </div>
             <ul className="flex flex-col gap-4 text-white font-semibold">
