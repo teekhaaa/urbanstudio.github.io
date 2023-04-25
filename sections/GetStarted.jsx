@@ -27,19 +27,18 @@ const GetStarted = () => (
         <TypingText title='| Contact Us' />
         <TitleText title={<>We reply in few hours</>} />
         <div className='mt-[31px] flex flex-col gap-[24px] lg:flex-row md:flex-row'>
-          <div className='flex bg-white justify-between item-center p-[50px] flex-col text-black rounded-xl'>
+          <div className='flex bg-white justify-between item-center p-[20px] md:p-[50px] flex-col text-black rounded-xl'>
             <h3 className={`font-semibold text-[20px] text-black mb-[30px]`}>Mobile:</h3>
             <div className='flex'>
             <div>
               <img src="./phone.svg" alt="" className='h-[48px] mr-[20px]' />
             </div>
             <div className='flex flex-col'>
-            <a href='tel:+919425115731'>+91 94251 15731</a>
-            <a href='tel:+916267750621'>+91 62677 50621</a>
+            <a href='tel:+916201477013'>+91  62014  77013</a>
             </div>
             </div>
           </div>
-          <div className='flex bg-white justify-between item-center p-[50px] flex-col text-black rounded-xl'>
+          <div className='flex bg-white justify-between item-center p-[20px] md:p-[50px] flex-col text-black rounded-xl'>
             <h3 className={`font-semibold text-[20px] text-black mb-[30px]`}>Email:</h3>
             <div className='flex'>
             <div>
